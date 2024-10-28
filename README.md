@@ -3,8 +3,8 @@
 ## Usage:
 
 ```yaml
-- name: 'Upload app to TestFlight'
-  uses: apple-actions/upload-testflight-build@v1
+- name: Upload to Testflight
+  uses: smartone-solutions/action-upload-testflight@v1.0.0
   with: 
     app-path: 'path/to/application.ipa' 
     issuer-id: ${{ secrets.APPSTORE_ISSUER_ID }}
